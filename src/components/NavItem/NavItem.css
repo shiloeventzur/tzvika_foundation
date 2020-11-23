@@ -1,0 +1,47 @@
+.NavItemEnglish {
+  font-size: 150%;
+  font-family: HelveticaNeue;
+  text-transform: uppercase;
+}
+
+.NavItemHebrew {
+  font-size: 200%;
+  font-family: FbSpoilerRegular;
+}
+
+.NavLink {
+  color: #544333;
+  text-decoration: none;
+  background: linear-gradient(currentColor, currentColor) bottom / 0 0.1em no-repeat;
+  transition: 0.3s background-size;
+}
+
+.NavLink:hover {
+  color: #85a13d;
+  background-size: 70% 0.1em;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) and (min-width: 500px) {
+  .NavItemHebrew {
+    font-size: 150%;
+  }
+
+  .NavItemEnglish {
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 0px) {
+  .NavItemHebrew {
+    font-size: 100%;
+    margin-right: -12% !important;
+  }
+
+  .NavItemEnglish {
+    font-size: 50%;
+    margin-right: -10% !important;
+    margin-top: 2% !important;
+  }
+}

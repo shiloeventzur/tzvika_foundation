@@ -1,0 +1,2838 @@
+(this["webpackJsonpfirst_app"] = this["webpackJsonpfirst_app"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/App/App.css":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/App/App.css ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../resources/fonts/FbSpoiler//FbSpoiler-Light.otf */ "./src/resources/fonts/FbSpoiler/FbSpoiler-Light.otf");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../../resources/fonts/FbSpoiler/FbSpoiler-Regular.otf */ "./src/resources/fonts/FbSpoiler/FbSpoiler-Regular.otf");
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ../../resources/fonts/FbSpoiler/FbSpoiler-Bold.otf */ "./src/resources/fonts/FbSpoiler/FbSpoiler-Bold.otf");
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ../../resources/fonts/FbSpoiler/FbSpoiler-Black.otf */ "./src/resources/fonts/FbSpoiler/FbSpoiler-Black.otf");
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! ../../resources/fonts/Oswald/Oswald-VariableFont_wght.ttf */ "./src/resources/fonts/Oswald/Oswald-VariableFont_wght.ttf");
+var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(/*! ../../resources/fonts/Delius/Delius-Regular.ttf */ "./src/resources/fonts/Delius/Delius-Regular.ttf");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);
+// Module
+exports.push([module.i, "body {\r\n  margin: 0 !important;\r\n}\r\n\r\n@font-face {\r\n  font-family: FbSpoilerLight;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\n@font-face {\r\n  font-family: FbSpoilerRegular;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n}\r\n\r\n@font-face {\r\n  font-family: FbSpoilerBold;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\r\n}\r\n\r\n@font-face {\r\n  font-family: FbSpoilerBlack;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ");\r\n}\r\n\r\n@font-face {\r\n  font-family: Oswald;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ");\r\n}\r\n\r\n@font-face {\r\n  font-family: Delius;\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ");\r\n}\r\n\r\n/* Responsive App */\r\n\r\n@media screen and (min-width: 4000px) {\r\n  .app {\r\n    margin: 0 25% 0 25%;\r\n  }\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Card/Card.css":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/Card/Card.css ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "h2 {\r\n  margin: 1.5% 0 -3.5% 0;\r\n  font-family: FbSpoilerBold;\r\n  font-size: 50px;\r\n  color: #544333;\r\n}\r\n\r\nh3 {\r\n  margin: 1.5% 0 -3.5% 0;\r\n  font-family: FbSpoilerBold;\r\n  font-size: 40px;\r\n  color: #544333;\r\n}\r\n\r\n/* English */\r\n.cardEnglish {\r\n  font-family: Oswald;\r\n  text-align: left;\r\n  margin: 2% 5% 0 5%;\r\n  padding: 1%;\r\n}\r\n\r\n.cardEnglishTitle {\r\n  font-size: 50px;\r\n  color: #544333;\r\n  font-weight: 800;\r\n}\r\n\r\n.cardEnglishParagraph {\r\n  font-size: 30px;\r\n  color: #544333;\r\n  font-weight: 0;\r\n}\r\n\r\n/* Hebrew */\r\n.cardHebrew {\r\n  text-align: right;\r\n  margin: 0 12% 0 12%;\r\n  padding: 1%;\r\n  direction: rtl;\r\n}\r\n\r\n.cardHebrewTitle {\r\n  font-family: FbSpoilerBold;\r\n  font-size: 50px;\r\n  color: #544333;\r\n}\r\n\r\n.cardHebrewParagraph {\r\n  font-family: FbSpoilerRegular;\r\n  font-size: 30px;\r\n  color: #544333;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ClosePopup/ClosePopup.css":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/ClosePopup/ClosePopup.css ***!
+  \*****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "/* Close */\r\n.close {\r\n  z-index: 3;\r\n  position: absolute;\r\n  right: 2%;\r\n  top: 4%;\r\n  width: 32px;\r\n  height: 32px;\r\n  opacity: 0.3;\r\n}\r\n\r\n.close:hover {\r\n  opacity: 1;\r\n  cursor: pointer;\r\n}\r\n\r\n.close:before,\r\n.close:after {\r\n  position: absolute;\r\n  left: 15px;\r\n  content: \" \";\r\n  height: 33px;\r\n  width: 2px;\r\n  background-color: white;\r\n}\r\n\r\n.close:before {\r\n  transform: rotate(45deg);\r\n}\r\n\r\n.close:after {\r\n  transform: rotate(-45deg);\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/CoverImage/CoverImage.css":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/CoverImage/CoverImage.css ***!
+  \*****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "/* Background Image */\r\n.imageBackground {\r\n  background-color: black;\r\n  width: 95%;\r\n  margin-left: auto;\r\n  margin-right: auto;\r\n}\r\n\r\n.cover {\r\n  display: block;\r\n  object-fit: cover;\r\n  object-position: 50% 35%;\r\n  opacity: 0.6;\r\n  width: 100%;\r\n  height: 550px;\r\n}\r\n\r\n.wave {\r\n  position: absolute;\r\n  z-index: 1;\r\n}\r\n\r\n@media screen and (min-width: 2500px) {\r\n  .imageBackground {\r\n    width: 85%;\r\n  }\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/DownloadButton/DownloadButton.css":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/DownloadButton/DownloadButton.css ***!
+  \*************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "/* General */\r\n#Button {\r\n  border-radius: 1500px;\r\n  background-color: white;\r\n  border: solid 2px #544333;\r\n  color: #544333;\r\n  font-size: 30px;\r\n}\r\n\r\n#Button:hover {\r\n  color: white;\r\n  background-color: #544333;\r\n  border: solid #544333 2px;\r\n}\r\n\r\n#Button:focus {\r\n  color: white;\r\n  background-color: #544333;\r\n  border: solid #544333 2px;\r\n}\r\n\r\n/* Hebrew */\r\n.cardHebrewButton {\r\n  font-family: FbSpoilerRegular;\r\n  margin-top: -3%;\r\n  padding: 0 2% 0 2%;\r\n}\r\n\r\n/* English*/\r\n.cardEnglishButton {\r\n  text-transform: uppercase;\r\n  font-family: Oswald;\r\n  margin-top: 3%;\r\n  padding: 0.5% 3% 0.5% 3%;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Footer/Footer.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/Footer/Footer.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".pageFooter {\r\n  margin-top: 5%;\r\n  background-color: #85a13d;\r\n  box-shadow: 0 50vh 0 50vh #85a13d;\r\n  justify-content: center;\r\n  align-items: center;\r\n  text-align: center;\r\n  color: black;\r\n}\r\n\r\n.footerObject {\r\n  display: inline-block;\r\n  vertical-align: top;\r\n  margin-top: 2%;\r\n  width: 13%;\r\n}\r\n\r\n.footerObject p {\r\n  font-size: 15px;\r\n}\r\n\r\n.copyright {\r\n  margin-top: 1%;\r\n  text-align: center;\r\n  color: black;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/Header/Header.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/LanguageButton/LanguageButton.css":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/LanguageButton/LanguageButton.css ***!
+  \*************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".switchLanguage {\r\n  position: absolute;\r\n  z-index: 2;\r\n  border-radius: 150px;\r\n  margin: 1% 0 0 1%;\r\n  font-size: 0px;\r\n  color: white;\r\n  background-color: #544333;\r\n  border-color: #544333;\r\n  transition: all ease-in-out 0.2s;\r\n}\r\n\r\n.switchLanguage:hover {\r\n  font-size: 100%;\r\n  color: white;\r\n  background-color: #544333;\r\n  border-color: #544333;\r\n}\r\n\r\n.switchLanguage:focus {\r\n  font-size: 100%;\r\n  color: white;\r\n  background-color: #544333;\r\n  border-color: #544333;\r\n}\r\n\r\n@media screen and (min-width: 2500px) {\r\n  .switchLanguage {\r\n  }\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Logo/Logo.css":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/Logo/Logo.css ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".logo {\r\n  display: block;\r\n  height: 40%;\r\n  width: 40%;\r\n  background-color: white;\r\n  border-radius: 10%;\r\n  padding: 1%;\r\n}\r\n\r\n.logoDiv {\r\n  z-index: 2;\r\n  margin-left: 70%;\r\n  margin-top: 2%;\r\n  position: absolute;\r\n}\r\n\r\n/* Responsive */\r\n\r\n@media screen and (min-width: 4000px) {\r\n  .logo {\r\n    height: 15%;\r\n    width: 15%;\r\n  }\r\n\r\n  .logoDiv {\r\n    margin-left: 35%;\r\n  }\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/NabBar/NavBar.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/NabBar/NavBar.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".navBar {\r\n  position: absolute;\r\n  z-index: 2;\r\n  text-align: center;\r\n  width: 50%;\r\n  margin-left: 13%;\r\n  margin-top: 1.7%;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/NavItem/NavItem.css":
+/*!***********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/NavItem/NavItem.css ***!
+  \***********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".NavItemEnglish {\r\n  font-size: 19px;\r\n  padding: 0;\r\n  font-family: Oswald;\r\n  text-transform: uppercase;\r\n}\r\n\r\n.NavItemHebrew {\r\n  font-size: 200%;\r\n  padding: 0;\r\n  font-family: FbSpoilerBlack;\r\n}\r\n\r\n.NavLink {\r\n  color: #544333;\r\n  text-decoration: none;\r\n  background: linear-gradient(currentColor, currentColor) bottom / 0 0.1em no-repeat;\r\n  transition: 0.3s background-size;\r\n}\r\n\r\n.NavLink:hover {\r\n  text-decoration-color: gold;\r\n  color: #85a13d;\r\n  background-size: 70% 0.1em;\r\n}\r\n\r\n/* Responsive */\r\n\r\n@media screen and (min-width: 2500px) {\r\n  .NavItemEnglish {\r\n    font-size: 4000%;\r\n  }\r\n\r\n  .NavItemHebrew {\r\n    font-size: 250%;\r\n  }\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/PhotoGallery/PhotoGallery.css":
+/*!*********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/PhotoGallery/PhotoGallery.css ***!
+  \*********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!react-image-gallery/styles/css/image-gallery.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-image-gallery/styles/css/image-gallery.css");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
+// Module
+exports.push([module.i, "\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/PopupMessage/PopupMessage.css":
+/*!*********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/PopupMessage/PopupMessage.css ***!
+  \*********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "/* English */\r\n\r\n.popup_cardEnglish {\r\n  z-index: 2;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n.popup_inner_cardEnglish {\r\n  position: absolute;\r\n  left: 32%;\r\n  right: 32%;\r\n  top: 13%;\r\n  bottom: 30%;\r\n  padding: 12% 0 0 0;\r\n  text-align: center;\r\n  border-radius: 20px;\r\n  background: white;\r\n}\r\n\r\n.iconLand_cardEnglish {\r\n  position: absolute;\r\n  left: 32%;\r\n  right: 32%;\r\n  top: 10%;\r\n  height: 25%;\r\n  border-radius: 20px 20px 0 0;\r\n  background-color: #4bb543;\r\n  z-index: 2;\r\n}\r\n\r\n.title_pop_cardEnglish {\r\n  font-family: Delius;\r\n  color: white;\r\n  justify-content: center;\r\n  display: flex;\r\n  font-size: 55px;\r\n}\r\n\r\n.nextSteps_cardEnglish {\r\n  font-family: Delius;\r\n  color: black;\r\n}\r\n\r\n.steps_cardEnglish {\r\n  margin: 7% 0 0 7%;\r\n  font-family: Delius;\r\n  line-height: 60px;\r\n  text-align: left;\r\n}\r\n\r\n/* Hebrew */\r\n\r\n.popup_cardHebrew {\r\n  z-index: 2;\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n  right: 0;\r\n  bottom: 0;\r\n  background-color: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n.popup_inner_cardHebrew {\r\n  position: absolute;\r\n  left: 32%;\r\n  right: 32%;\r\n  top: 13%;\r\n  bottom: 30%;\r\n  padding: 12% 0 0 0;\r\n  text-align: center;\r\n  border-radius: 20px;\r\n  background: white;\r\n}\r\n\r\n.iconLand_cardHebrew {\r\n  position: absolute;\r\n  left: 32%;\r\n  right: 32%;\r\n  top: 11%;\r\n  height: 25%;\r\n  border-radius: 20px 20px 0 0;\r\n  background-color: #4bb543;\r\n  z-index: 2;\r\n}\r\n\r\n.title_pop_cardHebrew {\r\n  color: white;\r\n  justify-content: center;\r\n  display: flex;\r\n  font-size: 55px;\r\n}\r\n\r\n.nextSteps_cardHebrew {\r\n  color: black;\r\n}\r\n\r\n.steps_cardHebrew {\r\n  margin: 5% 5% 0 0;\r\n  line-height: 60px;\r\n  text-align: right;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/SuccessIcon/SuccessIcon.css":
+/*!*******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/components/SuccessIcon/SuccessIcon.css ***!
+  \*******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".success {\r\n  display: block;\r\n  margin: auto;\r\n  width: 6rem;\r\n  padding-top: 5%;\r\n}\r\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./src/components/App/App.css":
+/*!************************************!*\
+  !*** ./src/components/App/App.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/App/App.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/App/App.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/App/App.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/App/App.js":
+/*!***********************************!*\
+  !*** ./src/components/App/App.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_Header_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Header/Header.js */ "./src/components/Header/Header.js");
+/* harmony import */ var _LanguageButton_LanguageButton_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../LanguageButton/LanguageButton.js */ "./src/components/LanguageButton/LanguageButton.js");
+/* harmony import */ var _Body_Body_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Body/Body.js */ "./src/components/Body/Body.js");
+/* harmony import */ var _Footer_Footer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Footer/Footer.js */ "./src/components/Footer/Footer.js");
+/* harmony import */ var _resources_json_PageData_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../resources/json/PageData.json */ "./src/resources/json/PageData.json");
+var _resources_json_PageData_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../resources/json/PageData.json */ "./src/resources/json/PageData.json", 1);
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./App.css */ "./src/components/App/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\App\\App.js";
+
+
+
+
+
+
+
+
+class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super();
+    this.state = {
+      language: "Hebrew",
+      languageIndex: 1,
+      currentCard: _resources_json_PageData_json__WEBPACK_IMPORTED_MODULE_5__.data[0],
+      currentCardName: "About"
+    }; // Bind language
+
+    this.setLanguage = this.setLanguage.bind(this);
+    this.getLanguage = this.getLanguage.bind(this); // Bind titles
+
+    this.getTitles = this.getTitles.bind(this); // Bind cards
+
+    this.setCurrentCard = this.setCurrentCard.bind(this);
+    this.getCurrentCardName = this.getCurrentCardName.bind(this);
+    this.getCurrentCardData = this.getCurrentCardData.bind(this);
+  } //#region LANGUAGE
+  // Gets the current language of the page.
+
+
+  getLanguage() {
+    return this.state.language;
+  } // Sets the current language of the page.
+
+
+  setLanguage() {
+    this.setState(pervState => {
+      let newLanguage = "English",
+          newIndex = 0;
+
+      if (pervState.language === "English") {
+        newLanguage = "Hebrew";
+        newIndex = 1;
+      }
+
+      return {
+        language: newLanguage,
+        languageIndex: newIndex
+      };
+    });
+  } //#endregion
+  //#region TITLES
+  // Gets the titles from database to the navbar.
+
+
+  getTitles() {
+    let titles = _resources_json_PageData_json__WEBPACK_IMPORTED_MODULE_5__.data.map((value, index) => {
+      return value.title[this.state.languageIndex];
+    });
+
+    if (this.state.languageIndex === 1) {
+      titles = titles.reverse();
+    }
+
+    return titles;
+  } //#endregion
+  //#region CARDS
+  // Sets the current card name showen in the body.
+
+
+  setCurrentCard(cardName) {
+    let newCardName = "About",
+        newCardIndex = 0;
+    _resources_json_PageData_json__WEBPACK_IMPORTED_MODULE_5__.data.forEach((value, index) => {
+      if (value.title[0] === cardName || value.title[1] === cardName) {
+        newCardName = value.title[0];
+        newCardIndex = index;
+      }
+    });
+    this.setState(pervState => {
+      return {
+        currentCardName: newCardName,
+        currentCard: _resources_json_PageData_json__WEBPACK_IMPORTED_MODULE_5__.data[newCardIndex]
+      };
+    });
+  } // Gets the current card name showen in the body.
+
+
+  getCurrentCardName() {
+    return this.state.currentCardName;
+  } // Gets the current card data to show in body component.
+
+
+  getCurrentCardData() {
+    let fullCurrentCard, currentCard;
+    _resources_json_PageData_json__WEBPACK_IMPORTED_MODULE_5__.data.forEach(value => {
+      if (value.title[0] === this.state.currentCardName) {
+        fullCurrentCard = value;
+      }
+    });
+    currentCard = {
+      title: fullCurrentCard.title[this.state.languageIndex],
+      paragraph: fullCurrentCard.paragraph[this.state.languageIndex]
+    };
+    return currentCard;
+  } //#endregion
+
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "app",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 115,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_LanguageButton_LanguageButton_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      getLanguage: this.getLanguage,
+      setLanguage: this.setLanguage,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 116,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header_Header_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      getLanguage: this.getLanguage,
+      getTitles: this.getTitles,
+      setCard: this.setCurrentCard,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 117,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Body_Body_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      getCurrentCardData: this.getCurrentCardData,
+      getLanguage: this.getLanguage.bind(this),
+      getCurrentCard: this.getCurrentCardName.bind(this),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 122,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer_Footer_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      getLanguage: this.getLanguage.bind(this),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 127,
+        columnNumber: 9
+      }
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+/***/ }),
+
+/***/ "./src/components/Body/Body.js":
+/*!*************************************!*\
+  !*** ./src/components/Body/Body.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Card_Card_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Card/Card.js */ "./src/components/Card/Card.js");
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\Body\\Body.js";
+
+
+
+class Body extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      currentPage: "home"
+    };
+  } // Gets the current style language
+
+
+  getLanguageStyle() {
+    let style = "cardEnglish";
+
+    if (this.props.getLanguage() === "Hebrew") {
+      style = "cardHebrew";
+    }
+
+    return style;
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Card_Card_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      title: this.props.getCurrentCardData().title,
+      paragraph: this.props.getCurrentCardData().paragraph,
+      styleLanguage: this.getLanguageStyle(),
+      currentCard: this.props.getCurrentCard(),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 11
+      }
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Body);
+
+/***/ }),
+
+/***/ "./src/components/Card/Card.css":
+/*!**************************************!*\
+  !*** ./src/components/Card/Card.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Card.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Card/Card.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Card.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Card/Card.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Card.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Card/Card.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Card/Card.js":
+/*!*************************************!*\
+  !*** ./src/components/Card/Card.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Card_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Card.css */ "./src/components/Card/Card.css");
+/* harmony import */ var _Card_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Card_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _CoverImage_CoverImage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../CoverImage/CoverImage.js */ "./src/components/CoverImage/CoverImage.js");
+/* harmony import */ var _DownloadButton_DownloadButton_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../DownloadButton/DownloadButton.js */ "./src/components/DownloadButton/DownloadButton.js");
+/* harmony import */ var _PhotoGallery_PhotoGallery_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../PhotoGallery/PhotoGallery.js */ "./src/components/PhotoGallery/PhotoGallery.js");
+/* harmony import */ var _PopupMessage_PopupMessage_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../PopupMessage/PopupMessage.js */ "./src/components/PopupMessage/PopupMessage.js");
+/* harmony import */ var html_react_parser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! html-react-parser */ "./node_modules/html-react-parser/index.js");
+/* harmony import */ var html_react_parser__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(html_react_parser__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\Card\\Card.js";
+
+
+
+
+
+
+
+
+class Card extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super();
+    this.state = {
+      showPopup: false
+    };
+  } // Return the paragraph needed after parsing it using html
+
+
+  getFixedParagraph() {
+    const fixedParagraph = this.props.paragraph.split("\n").map((item, index) => {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: index.toString(),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19,
+          columnNumber: 9
+        }
+      }, html_react_parser__WEBPACK_IMPORTED_MODULE_6___default()(item), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 11
+        }
+      }));
+    });
+    return fixedParagraph;
+  } // Returns the Spacil data that isn't paragraphs that needed to render.
+
+
+  getExtraDataToRender() {
+    let extraDataToRender = null; // Render donation page
+
+    if (this.props.currentCard === "Donate") {
+      extraDataToRender = "DonationForm"; // Render download button for the form.
+    } else if (this.props.currentCard === "The scholarship") {
+      extraDataToRender = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DownloadButton_DownloadButton_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        styleLanguage: this.props.styleLanguage,
+        popupEvent: this.togglePopup.bind(this),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 9
+        }
+      }); // Render photo gallary.
+    } else if (this.props.currentCard === "Tzvika Levi") {
+      extraDataToRender = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PhotoGallery_PhotoGallery_js__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 27
+        }
+      });
+    }
+
+    return extraDataToRender;
+  } // Pops up the message that explains what to do with the form after filling it.
+
+
+  togglePopup() {
+    this.setState({
+      showPopup: !this.state.showPopup
+    });
+  } // Returns popup magges if nessasery.
+
+
+  showPopupMessage() {
+    let dataToReturn = null;
+
+    if (this.state.showPopup) {
+      dataToReturn = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PopupMessage_PopupMessage_js__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        closePopup: this.togglePopup.bind(this),
+        lang: this.props.styleLanguage,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66,
+          columnNumber: 9
+        }
+      });
+    }
+
+    return dataToReturn;
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 75,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_CoverImage_CoverImage_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: this.props.styleLanguage,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 77,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: this.props.styleLanguage + "Paragraph",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 78,
+        columnNumber: 11
+      }
+    }, this.getFixedParagraph()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 79,
+        columnNumber: 11
+      }
+    }, this.getExtraDataToRender(), this.showPopupMessage())));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Card);
+
+/***/ }),
+
+/***/ "./src/components/ClosePopup/ClosePopup.css":
+/*!**************************************************!*\
+  !*** ./src/components/ClosePopup/ClosePopup.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./ClosePopup.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ClosePopup/ClosePopup.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./ClosePopup.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ClosePopup/ClosePopup.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./ClosePopup.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/ClosePopup/ClosePopup.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/ClosePopup/ClosePopup.js":
+/*!*************************************************!*\
+  !*** ./src/components/ClosePopup/ClosePopup.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ClosePopup_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ClosePopup.css */ "./src/components/ClosePopup/ClosePopup.css");
+/* harmony import */ var _ClosePopup_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ClosePopup_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\ClosePopup\\ClosePopup.js";
+
+
+
+class ClosePopup extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "close",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6,
+        columnNumber: 12
+      }
+    });
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ClosePopup);
+
+/***/ }),
+
+/***/ "./src/components/CoverImage/CoverImage.css":
+/*!**************************************************!*\
+  !*** ./src/components/CoverImage/CoverImage.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./CoverImage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/CoverImage/CoverImage.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./CoverImage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/CoverImage/CoverImage.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./CoverImage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/CoverImage/CoverImage.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/CoverImage/CoverImage.js":
+/*!*************************************************!*\
+  !*** ./src/components/CoverImage/CoverImage.js ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Image */ "./node_modules/react-bootstrap/esm/Image.js");
+/* harmony import */ var _Waves_Waves_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Waves/Waves.js */ "./src/components/Waves/Waves.js");
+/* harmony import */ var _CoverImage_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CoverImage.css */ "./src/components/CoverImage/CoverImage.css");
+/* harmony import */ var _CoverImage_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_CoverImage_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\CoverImage\\CoverImage.js";
+
+
+
+
+
+class CoverImage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Waves_Waves_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "imageBackground",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      src: __webpack_require__(/*! ../../resources/img/Cover/Home.jpg */ "./src/resources/img/Cover/Home.jpg"),
+      className: "cover",
+      alt: "coverPhoto",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 11
+      }
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CoverImage);
+
+/***/ }),
+
+/***/ "./src/components/DownloadButton/DownloadButton.css":
+/*!**********************************************************!*\
+  !*** ./src/components/DownloadButton/DownloadButton.css ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./DownloadButton.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/DownloadButton/DownloadButton.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./DownloadButton.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/DownloadButton/DownloadButton.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./DownloadButton.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/DownloadButton/DownloadButton.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/DownloadButton/DownloadButton.js":
+/*!*********************************************************!*\
+  !*** ./src/components/DownloadButton/DownloadButton.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+/* harmony import */ var _DownloadButton_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DownloadButton.css */ "./src/components/DownloadButton/DownloadButton.css");
+/* harmony import */ var _DownloadButton_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_DownloadButton_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _resources_ApplicationForm_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/ApplicationForm.pdf */ "./src/resources/ApplicationForm.pdf");
+/* harmony import */ var _resources_ApplicationForm_pdf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_resources_ApplicationForm_pdf__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\DownloadButton\\DownloadButton.js";
+
+
+
+
+
+class DownloadButton extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    let downloadLabel = "Apply for Scolorship";
+
+    if (this.props.styleLanguage === "cardHebrew") {
+      downloadLabel = "הרשמה למלגה";
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      id: "Button",
+      variant: "dark",
+      className: `${this.props.styleLanguage}Button`,
+      href: _resources_ApplicationForm_pdf__WEBPACK_IMPORTED_MODULE_3___default.a,
+      download: "Application Form",
+      onClick: this.props.popupEvent,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 7
+      }
+    }, downloadLabel);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (DownloadButton);
+
+/***/ }),
+
+/***/ "./src/components/Footer/Footer.css":
+/*!******************************************!*\
+  !*** ./src/components/Footer/Footer.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Footer/Footer.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Footer/Footer.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Footer/Footer.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Footer/Footer.js":
+/*!*****************************************!*\
+  !*** ./src/components/Footer/Footer.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer.css */ "./src/components/Footer/Footer.css");
+/* harmony import */ var _Footer_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Footer_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_icons_CallRounded__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/icons/CallRounded */ "./node_modules/@material-ui/icons/CallRounded.js");
+/* harmony import */ var _material_ui_icons_CallRounded__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_CallRounded__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_icons_LocationOnRounded__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/LocationOnRounded */ "./node_modules/@material-ui/icons/LocationOnRounded.js");
+/* harmony import */ var _material_ui_icons_LocationOnRounded__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_LocationOnRounded__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_icons_LanguageRounded__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/icons/LanguageRounded */ "./node_modules/@material-ui/icons/LanguageRounded.js");
+/* harmony import */ var _material_ui_icons_LanguageRounded__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_LanguageRounded__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_icons_AlternateEmailRounded__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/icons/AlternateEmailRounded */ "./node_modules/@material-ui/icons/AlternateEmailRounded.js");
+/* harmony import */ var _material_ui_icons_AlternateEmailRounded__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_AlternateEmailRounded__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_icons_PrintRounded__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/icons/PrintRounded */ "./node_modules/@material-ui/icons/PrintRounded.js");
+/* harmony import */ var _material_ui_icons_PrintRounded__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_PrintRounded__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\Footer\\Footer.js";
+
+
+
+
+
+
+
+
+class Footer extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super();
+  }
+
+  render() {
+    let fullAdress = "25 Lawrence Avenue, Lawrence, NY",
+        copyright = "© 2020 Tzvika Fundation";
+
+    if (this.props.getLanguage() === "Hebrew") {
+      fullAdress = "שדרות לורנס 25, לורנס, ניו יורק";
+      copyright = " 2020 קרן צביקה ©";
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "pageFooter",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "footerObject",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_CallRounded__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      className: "icon",
+      style: {
+        fontSize: 30
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 13
+      }
+    }, "09-8942635")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "footerObject",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_PrintRounded__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      className: "icon",
+      style: {
+        fontSize: 30
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32,
+        columnNumber: 13
+      }
+    }), " ", "(Fax)", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 13
+      }
+    }, "09-894d2635")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "footerObject",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_AlternateEmailRounded__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      className: "icon",
+      style: {
+        fontSize: 30
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 13
+      }
+    }, "temp-mail@gamil.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "footerObject",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_LocationOnRounded__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      className: "icon",
+      style: {
+        fontSize: 30
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 13
+      }
+    }, fullAdress)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "footerObject",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 11
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_LanguageRounded__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      className: "icon",
+      style: {
+        fontSize: 30
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44,
+        columnNumber: 13
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 13
+      }
+    }, "www.tzvika.org.il"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
+      className: "copyright",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 9
+      }
+    }, " ", copyright));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/components/Header/Header.css":
+/*!******************************************!*\
+  !*** ./src/components/Header/Header.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Header.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Header.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Header.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Header/Header.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Header/Header.js":
+/*!*****************************************!*\
+  !*** ./src/components/Header/Header.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.css */ "./src/components/Header/Header.css");
+/* harmony import */ var _Header_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Header_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Logo_Logo_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Logo/Logo.js */ "./src/components/Logo/Logo.js");
+/* harmony import */ var _NabBar_NavBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../NabBar/NavBar */ "./src/components/NabBar/NavBar.js");
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\Header\\Header.js";
+
+
+
+
+
+class Header extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NabBar_NavBar__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      language: this.props.getLanguage(),
+      titles: this.props.getTitles(),
+      setCardName: this.props.setCard.bind(this),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 9
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Logo_Logo_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      language: this.props.getLanguage(),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 9
+      }
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/components/LanguageButton/LanguageButton.css":
+/*!**********************************************************!*\
+  !*** ./src/components/LanguageButton/LanguageButton.css ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./LanguageButton.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/LanguageButton/LanguageButton.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./LanguageButton.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/LanguageButton/LanguageButton.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./LanguageButton.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/LanguageButton/LanguageButton.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/LanguageButton/LanguageButton.js":
+/*!*********************************************************!*\
+  !*** ./src/components/LanguageButton/LanguageButton.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+/* harmony import */ var _material_ui_icons_TranslateRounded__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/icons/TranslateRounded */ "./node_modules/@material-ui/icons/TranslateRounded.js");
+/* harmony import */ var _material_ui_icons_TranslateRounded__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_TranslateRounded__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _LanguageButton_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./LanguageButton.css */ "./src/components/LanguageButton/LanguageButton.css");
+/* harmony import */ var _LanguageButton_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_LanguageButton_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\LanguageButton\\LanguageButton.js";
+
+
+
+
+
+class LanguageButton extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    if (this.props.getLanguage() === null) {
+      return;
+    }
+
+    let buttonText = "Switch to English";
+
+    if (this.props.getLanguage() === "English") {
+      buttonText = "עבור לעברית";
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      variant: "dark",
+      className: "switchLanguage",
+      onClick: this.props.setLanguage,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_TranslateRounded__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      style: {
+        fontSize: 25
+      },
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 9
+      }
+    }), " ", buttonText);
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (LanguageButton);
+
+/***/ }),
+
+/***/ "./src/components/Logo/Logo.css":
+/*!**************************************!*\
+  !*** ./src/components/Logo/Logo.css ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Logo.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Logo/Logo.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Logo.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Logo/Logo.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./Logo.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/Logo/Logo.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/Logo/Logo.js":
+/*!*************************************!*\
+  !*** ./src/components/Logo/Logo.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Logo_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Logo.css */ "./src/components/Logo/Logo.css");
+/* harmony import */ var _Logo_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Logo_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _resources_img_Logo_English_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../resources/img/Logo/English.png */ "./src/resources/img/Logo/English.png");
+/* harmony import */ var _resources_img_Logo_English_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_resources_img_Logo_English_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _resources_img_Logo_Hebrew_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../resources/img/Logo/Hebrew.png */ "./src/resources/img/Logo/Hebrew.png");
+/* harmony import */ var _resources_img_Logo_Hebrew_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_resources_img_Logo_Hebrew_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-bootstrap/Image */ "./node_modules/react-bootstrap/esm/Image.js");
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\Logo\\Logo.js";
+
+
+
+
+
+
+class Logo extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super();
+  }
+
+  render() {
+    let logoLanguage = _resources_img_Logo_English_png__WEBPACK_IMPORTED_MODULE_2___default.a;
+
+    if (this.props.language === "Hebrew") {
+      logoLanguage = _resources_img_Logo_Hebrew_png__WEBPACK_IMPORTED_MODULE_3___default.a;
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "logoDiv",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Image__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      src: logoLanguage,
+      className: "logo",
+      alt: "logo",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 9
+      }
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Logo);
+
+/***/ }),
+
+/***/ "./src/components/NabBar/NavBar.css":
+/*!******************************************!*\
+  !*** ./src/components/NabBar/NavBar.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/NabBar/NavBar.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/NabBar/NavBar.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavBar.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/NabBar/NavBar.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/NabBar/NavBar.js":
+/*!*****************************************!*\
+  !*** ./src/components/NabBar/NavBar.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _NavItem_NavItem_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../NavItem/NavItem.js */ "./src/components/NavItem/NavItem.js");
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _NavBar_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavBar.css */ "./src/components/NabBar/NavBar.css");
+/* harmony import */ var _NavBar_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_NavBar_css__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\NabBar\\NavBar.js";
+ // Import components
+
+
+ // Import style
+
+
+
+
+class NavBar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      className: "navBar",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 7
+      }
+    }, this.props.titles.map((value, index) => {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavItem_NavItem_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        key: index,
+        text: value,
+        language: this.props.language,
+        setCard: this.props.setCardName.bind(this),
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 13
+        }
+      });
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (NavBar);
+
+/***/ }),
+
+/***/ "./src/components/NavItem/NavItem.css":
+/*!********************************************!*\
+  !*** ./src/components/NavItem/NavItem.css ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavItem.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/NavItem/NavItem.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavItem.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/NavItem/NavItem.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./NavItem.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/NavItem/NavItem.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/NavItem/NavItem.js":
+/*!*******************************************!*\
+  !*** ./src/components/NavItem/NavItem.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _NavItem_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavItem.css */ "./src/components/NavItem/NavItem.css");
+/* harmony import */ var _NavItem_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_NavItem_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Nav */ "./node_modules/react-bootstrap/esm/Nav.js");
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\NavItem\\NavItem.js";
+
+
+
+
+class NavItem extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      text: props.text
+    };
+  }
+
+  render() {
+    let styleLanguage = "NavItemEnglish";
+
+    if (this.props.language === "Hebrew") {
+      styleLanguage = "NavItemHebrew";
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__["default"].Item, {
+      className: styleLanguage,
+      onClick: () => this.props.setCard(this.props.text),
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Nav__WEBPACK_IMPORTED_MODULE_2__["default"].Link, {
+      className: "NavLink",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 9
+      }
+    }, this.props.text, " "));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (NavItem);
+
+/***/ }),
+
+/***/ "./src/components/PhotoGallery/PhotoGallery.css":
+/*!******************************************************!*\
+  !*** ./src/components/PhotoGallery/PhotoGallery.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./PhotoGallery.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/PhotoGallery/PhotoGallery.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./PhotoGallery.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/PhotoGallery/PhotoGallery.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./PhotoGallery.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/PhotoGallery/PhotoGallery.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/PhotoGallery/PhotoGallery.js":
+/*!*****************************************************!*\
+  !*** ./src/components/PhotoGallery/PhotoGallery.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_image_gallery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-image-gallery */ "./node_modules/react-image-gallery/build/image-gallery.js");
+/* harmony import */ var react_image_gallery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_image_gallery__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _PhotoGallery_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PhotoGallery.css */ "./src/components/PhotoGallery/PhotoGallery.css");
+/* harmony import */ var _PhotoGallery_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_PhotoGallery_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\PhotoGallery\\PhotoGallery.js";
+
+
+
+
+class PhotoGallery extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super();
+  }
+
+  importAll(r) {
+    return r.keys().map(r);
+  }
+
+  render() {
+    const images = this.importAll(__webpack_require__("./src/resources/img/Tzvika/good sync \\.(png|jpe?g|svg|jpg)$"));
+    const varible = images.map(item => {
+      return {
+        original: item
+      };
+    });
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_image_gallery__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      showPlayButton: false,
+      showThumbnails: false,
+      showIndex: true,
+      items: varible,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 7
+      }
+    });
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (PhotoGallery);
+
+/***/ }),
+
+/***/ "./src/components/PopupMessage/PopupMessage.css":
+/*!******************************************************!*\
+  !*** ./src/components/PopupMessage/PopupMessage.css ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./PopupMessage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/PopupMessage/PopupMessage.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./PopupMessage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/PopupMessage/PopupMessage.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./PopupMessage.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/PopupMessage/PopupMessage.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/PopupMessage/PopupMessage.js":
+/*!*****************************************************!*\
+  !*** ./src/components/PopupMessage/PopupMessage.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _PopupMessage_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PopupMessage.css */ "./src/components/PopupMessage/PopupMessage.css");
+/* harmony import */ var _PopupMessage_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_PopupMessage_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _SuccessIcon_SuccessIcon_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../SuccessIcon/SuccessIcon.js */ "./src/components/SuccessIcon/SuccessIcon.js");
+/* harmony import */ var _ClosePopup_ClosePopup_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../ClosePopup/ClosePopup.js */ "./src/components/ClosePopup/ClosePopup.js");
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\PopupMessage\\PopupMessage.js";
+
+
+
+
+
+class PopupMessage extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    let popupTitle = "Great!",
+        nextTitle = "What do I do next?",
+        firstStep = "1. Fill the form you just download.",
+        secondStep = "2. Send it to our email address:",
+        goodLuck = "Good Luck";
+
+    if (this.props.lang === "cardHebrew") {
+      popupTitle = "מעולה!";
+      nextTitle = "מה עושים עכשיו?";
+      firstStep = "1. מלא את הטופס שזה עתה הורדת.";
+      secondStep = "2. שלח את הטופס לכתובת המייל: ";
+      goodLuck = "בהצלחה!";
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "popup_" + this.props.lang,
+      onClick: this.props.closePopup,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "iconLand_" + this.props.lang,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ClosePopup_ClosePopup_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 11
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SuccessIcon_SuccessIcon_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 11
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+      className: "title_pop_" + this.props.lang,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 11
+      }
+    }, popupTitle)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "popup_inner_" + this.props.lang,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 9
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "nextSteps_" + this.props.lang,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 11
+      }
+    }, nextTitle), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+      className: "steps_" + this.props.lang,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 11
+      }
+    }, firstStep, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33,
+        columnNumber: 13
+      }
+    }), secondStep, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: "steps_" + this.props.lang,
+      style: {
+        margin: "0.5%"
+      },
+      href: "mailto:kerentzvika@gmail.com",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 13
+      }
+    }, "kerentzvika@gmail.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      className: "nextSteps_" + this.props.lang,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 11
+      }
+    }, goodLuck)));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (PopupMessage);
+
+/***/ }),
+
+/***/ "./src/components/SuccessIcon/SuccessIcon.css":
+/*!****************************************************!*\
+  !*** ./src/components/SuccessIcon/SuccessIcon.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./SuccessIcon.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/SuccessIcon/SuccessIcon.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(true) {
+	module.hot.accept(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./SuccessIcon.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/SuccessIcon/SuccessIcon.css", function() {
+		var newContent = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!../../../node_modules/postcss-loader/src??postcss!./SuccessIcon.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/SuccessIcon/SuccessIcon.css");
+
+		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
+
+		var locals = (function(a, b) {
+			var key, idx = 0;
+
+			for(key in a) {
+				if(!b || a[key] !== b[key]) return false;
+				idx++;
+			}
+
+			for(key in b) idx--;
+
+			return idx === 0;
+		}(content.locals, newContent.locals));
+
+		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+
+		update(newContent);
+	});
+
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./src/components/SuccessIcon/SuccessIcon.js":
+/*!***************************************************!*\
+  !*** ./src/components/SuccessIcon/SuccessIcon.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SuccessIcon_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SuccessIcon.css */ "./src/components/SuccessIcon/SuccessIcon.css");
+/* harmony import */ var _SuccessIcon_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_SuccessIcon_css__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\SuccessIcon\\SuccessIcon.js";
+
+
+
+class SuccessIcon extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+      viewBox: "0 0 16 16",
+      fill: "white",
+      xmlns: "http://www.w3.org/2000/svg",
+      className: "success",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+      fillRule: "evenodd",
+      d: "M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 8,
+        columnNumber: 9
+      }
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (SuccessIcon);
+
+/***/ }),
+
+/***/ "./src/components/Waves/Waves.js":
+/*!***************************************!*\
+  !*** ./src/components/Waves/Waves.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\components\\Waves\\Waves.js";
+
+
+class Waves extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super();
+  }
+
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("svg", {
+      xmlns: "http://www.w3.org/2000/svg",
+      viewBox: "0 0 1440 320",
+      className: "wave",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 7
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("path", {
+      fill: "#fff",
+      fillOpacity: "1",
+      d: "M0,96L120,90.7C240,85,480,75,720,96C960,117,1200,171,1320,197.3L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 9
+      }
+    }));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Waves);
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_App_App_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/App/App.js */ "./src/components/App/App.js");
+var _jsxFileName = "C:\\Projects\\Tzvika_fundation\\src\\index.js";
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_App_App_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 17
+  }
+}), document.getElementById("root"));
+
+/***/ }),
+
+/***/ "./src/resources/ApplicationForm.pdf":
+/*!*******************************************!*\
+  !*** ./src/resources/ApplicationForm.pdf ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/ApplicationForm.753d6c1f.pdf";
+
+/***/ }),
+
+/***/ "./src/resources/fonts/Delius/Delius-Regular.ttf":
+/*!*******************************************************!*\
+  !*** ./src/resources/fonts/Delius/Delius-Regular.ttf ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Delius-Regular.19cfcfb8.ttf";
+
+/***/ }),
+
+/***/ "./src/resources/fonts/FbSpoiler/FbSpoiler-Black.otf":
+/*!***********************************************************!*\
+  !*** ./src/resources/fonts/FbSpoiler/FbSpoiler-Black.otf ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/FbSpoiler-Black.c20a42cf.otf";
+
+/***/ }),
+
+/***/ "./src/resources/fonts/FbSpoiler/FbSpoiler-Bold.otf":
+/*!**********************************************************!*\
+  !*** ./src/resources/fonts/FbSpoiler/FbSpoiler-Bold.otf ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/FbSpoiler-Bold.8d13fc21.otf";
+
+/***/ }),
+
+/***/ "./src/resources/fonts/FbSpoiler/FbSpoiler-Light.otf":
+/*!***********************************************************!*\
+  !*** ./src/resources/fonts/FbSpoiler/FbSpoiler-Light.otf ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/FbSpoiler-Light.8e677860.otf";
+
+/***/ }),
+
+/***/ "./src/resources/fonts/FbSpoiler/FbSpoiler-Regular.otf":
+/*!*************************************************************!*\
+  !*** ./src/resources/fonts/FbSpoiler/FbSpoiler-Regular.otf ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/FbSpoiler-Regular.82b837c8.otf";
+
+/***/ }),
+
+/***/ "./src/resources/fonts/Oswald/Oswald-VariableFont_wght.ttf":
+/*!*****************************************************************!*\
+  !*** ./src/resources/fonts/Oswald/Oswald-VariableFont_wght.ttf ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Oswald-VariableFont_wght.a6e5446a.ttf";
+
+/***/ }),
+
+/***/ "./src/resources/img/Cover/Home.jpg":
+/*!******************************************!*\
+  !*** ./src/resources/img/Cover/Home.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Home.8bfe9e05.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Logo/English.png":
+/*!********************************************!*\
+  !*** ./src/resources/img/Logo/English.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/English.ac6775f4.png";
+
+/***/ }),
+
+/***/ "./src/resources/img/Logo/Hebrew.png":
+/*!*******************************************!*\
+  !*** ./src/resources/img/Logo/Hebrew.png ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/Hebrew.822dfd53.png";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good sync \\.(png|jpe?g|svg|jpg)$":
+/*!********************************************************************************!*\
+  !*** ./src/resources/img/Tzvika/good sync nonrecursive \.(png|jpe?g|svg|jpg)$ ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./1.jpg": "./src/resources/img/Tzvika/good/1.jpg",
+	"./10.jpg": "./src/resources/img/Tzvika/good/10.jpg",
+	"./11.jpg": "./src/resources/img/Tzvika/good/11.jpg",
+	"./12.jpg": "./src/resources/img/Tzvika/good/12.jpg",
+	"./13.jpg": "./src/resources/img/Tzvika/good/13.jpg",
+	"./14.jpg": "./src/resources/img/Tzvika/good/14.jpg",
+	"./15.jpg": "./src/resources/img/Tzvika/good/15.jpg",
+	"./16.jpg": "./src/resources/img/Tzvika/good/16.jpg",
+	"./17.jpg": "./src/resources/img/Tzvika/good/17.jpg",
+	"./18.jpg": "./src/resources/img/Tzvika/good/18.jpg",
+	"./19.jpg": "./src/resources/img/Tzvika/good/19.jpg",
+	"./2.jpg": "./src/resources/img/Tzvika/good/2.jpg",
+	"./20.jpg": "./src/resources/img/Tzvika/good/20.jpg",
+	"./3.jpg": "./src/resources/img/Tzvika/good/3.jpg",
+	"./4.jpg": "./src/resources/img/Tzvika/good/4.jpg",
+	"./5.jpg": "./src/resources/img/Tzvika/good/5.jpg",
+	"./6.jpg": "./src/resources/img/Tzvika/good/6.jpg",
+	"./7.jpg": "./src/resources/img/Tzvika/good/7.jpg",
+	"./8.jpg": "./src/resources/img/Tzvika/good/8.jpg",
+	"./9.jpg": "./src/resources/img/Tzvika/good/9.jpg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/resources/img/Tzvika/good sync \\.(png|jpe?g|svg|jpg)$";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/1.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/1.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/1.9d1fc348.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/10.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/10.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/10.831e87a1.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/11.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/11.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/11.00d02f03.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/12.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/12.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/12.bd8211a7.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/13.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/13.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/13.86a22a2e.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/14.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/14.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/14.77fc0878.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/15.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/15.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/15.ecd50319.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/16.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/16.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/16.f40d0908.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/17.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/17.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/17.c25f8027.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/18.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/18.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/18.f9c17e80.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/19.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/19.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/19.5b76eeeb.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/2.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/2.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/2.f8e90543.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/20.jpg":
+/*!**********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/20.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/20.a67ffa81.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/3.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/3.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/3.cb695cd7.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/4.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/4.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/4.27c2cf12.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/5.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/5.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/5.83c40872.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/6.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/6.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/6.9137251b.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/7.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/7.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/7.ceb2c986.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/8.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/8.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/8.2f7515c0.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/img/Tzvika/good/9.jpg":
+/*!*********************************************!*\
+  !*** ./src/resources/img/Tzvika/good/9.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/media/9.7d850bb6.jpg";
+
+/***/ }),
+
+/***/ "./src/resources/json/PageData.json":
+/*!******************************************!*\
+  !*** ./src/resources/json/PageData.json ***!
+  \******************************************/
+/*! exports provided: data, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"data\":[{\"title\":[\"About\",\"אודות\"],\"paragraph\":[\"<h2>Apply</h2> for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarshipApply for a scholarship\",\"<h2>אודות קרן צביקה</h2>\\nבמשך מעל מ- 25 שנה פעל צביקה, בדרכים שונות, מקובלות וחריגות, בכדי לעזור ולסייע בכל דרך אפשרית לחיילים הבודדים. בשנים האחרונות הקשתה עלו מחלתו והגבילה את יכולת התנועה שלו, אך צביקה המשיך מביתו שביפעת להפעיל בנחישות את כל הגורמים, כדי שמפעל חשוב זה לא ייפגע.\\nבתחילת פעילותו היו משפחתו וחבריו שזורים בעשיה הענפה ובמפעל חיים הציוני הייחודי שהקים. במהלך השנה מאז לכתו של צביקה התגבשה קבוצת חברים עם משפחתו בהחלטה להמשיך את מורשתו. \\\"קרן צביקה\\\" הוקמה כהמשך ישיר למפעל חייו של צביקה לוי ז''ל, במטרה להיות קשובים לצרכי החיילים הבודדים ולדאוג לכול מבוקשם. הקרן תשאף להגשים בנוסף את חלומותיו של צביקה שטרם הספיק לממש.\\nבינואר 2020, בתום שנה ללכתו של צביקה מאתנו, נערך בקיבוץ יפעת טקס ובו הוכרז על הקמת קרן על שמו, שתעניק מלגות לימודים לחיילים בודדים משוחררים המתעתדים ללמוד במוסדות להשכלה גבוהה בישראל.\\n<h2>חזון \\\"קרן צביקה\\\" – שילוב חיילים בודדים משוחררים בחברה הישראלית </h2>\\nהקרן תשמש מערכת תומכת לחיילים הבודדים אשר החליטו לקשור את גורלם עם מדינת ישראל גם בתום השירות הצבאי, תסייע בכך לקליטתם בחברה הישראלית ולשילובם בה.\\nמייסדי הקרן רואים בשילובו של נוער צעיר מכל קצוות תבל בחברה הישראלית מהלך ציוני, חשוב והכרחי, לפיתוח המרקם האנושי בחברה הישראלית על כל גווניה ולהפוך אותה למשגשגת יותר ומלוכדת יותר.\\n<h2>מטרות הקרן </h2>\\n1.\\tלהעניק מלגות לימודים לחיילים בודדים, שהחליטו ללמוד במוסדות להשכלה גבוהה בישראל, בתום השירות הצבאי\\n2.\\tלשמש כתובת לקהילת החיילים הבודדים לאחר שחרורם ובתקופת לימודיהם.\\n3.\\tלהעניק סיוע לחיילים בודדים במסגרות נוספות, בהתאם להחלטות דירקטוריון הקרן.\\n\"]},{\"title\":[\"The scholarship\",\"המלגה\"],\"paragraph\":[\"Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarshipApply for a scholarship\",\"<h2>הרשמה למלגה וקריטריונים לזכאות</h2>\\n<h3>מסלולי מלגות</h3> \\n1.\\tמלגת לימודים לתואר ראשון במוסד אקדמאי מוכר בארץ.\\n2.\\tמלגות לימודים נוספות, כדוגמת תואר שני ורפואה, בכפוף להחלטה פרטנית של דירקטוריון הקרן.\\n<h3>הרשמה</h3>\\nההרשמה לצורך קבלת מלגה תהיה בכל שנה לגבי השנה העוקבת, בין התאריכים :_______\\nל - _______.\\nאת טפסי ההרשמה ניתן להוריד מאתר הקרן ו/או לפנות אלינו בכתובת המייל:\\n___________.\\n<h3>קריטריונים לזכאות</h3>\\nחיילים בודדים משוחררים יוכלו להגיש מועמדות למגלה בתנאי שיעמדו בקריטריונים הבאים:\\n1.\\tמגורים ולימודים בארץ.\\n2.\\tהמועמד עומד בהגדרת \\\"חייל בודד\\\" של משרד הבטחון.\\n3.\\tהגשת בקשה יכולה להיעשות בתוך 5 שנים מיום שחרורו של המועמד.\\n4.\\tלימודי תואר ראשון ישראלי או לימודי תעודה בהיקף לימודים מלא במוסד שקיבל את אישור המל''ג (למעט האוניברסיטה הפתוחה).\\n5.\\tלימודי תעודה (מלאים), המוכרים על ידי משרד העבודה, הרווחה והשרותים החברתיים.\\n\\nלתשומת לב המועמדים\\n-\\tמועמדים שיעמדו בכל הקריטריונים וימלאו טופס הרשמה בהתאם להנחיות , יוזמנו למיון במועד ובמקום שיקבע וישלח למועמדים. במידה ובתוך שבועיים ממועד סיום ההרשמה לא נוצר עמכם קשר, נא פנו אלינו טלפונית, או באמצעות המייל.\\n-\\tתהליך המיון בקרן צביקה, עשוי לכלול מספר שלבים ולכן הוא עשוי מחד לקחת זמן ומאידך הוא יחייב את המועמדים להיות זמינים לפחות למשך 60 יום ממועד סיום ההרשמה.\\n-\\tראוי להדגיש, עדיפות תינתן למועמד שאינו מקבל תמיכה וסיוע מגורם אחר.\\n-\\tהמיונים יתקיימו עד סוף חודש אוגוסט. בסיום המיונים תשלחנה הודעות למקבלי המלגות. מועמדים שמתעתדים לנסוע לחו''ל בתקופה זו, מתבקשים להודיענו מבעוד מועד.\\n\\nהגדרת חיילים בודדים\\n1.\\tמי שהוריו גרים בחו''ל והוא עלה לארץ לבדו לצורך גיוסו לצבא. (לא כולל בני שליחים).\\n2.\\tמי שהוריו בחרו להגר והוא בחר להישאר בארץ.\\n3.\\tמי שהוריו הביולוגיים בארץ אך אין לו כל קשר איתם (כפוף לדו''ח עו''ס והמלצת מחלקת רווחה ).\\n4.\\tיתומים משני הורים.\\n\\n\"]},{\"title\":[\"Tzvika Levi\",\"צביקה לוי\"],\"paragraph\":[\"Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarshipApply for a scholarship\",\"<h2>צביקה לוי – \\\"האבא של החיילים הבודדים\\\"</h2>\\n<h3>\\\"איש של אנשים ואמונה באדם\\\"</h3>\\nצביקה נולד בקיבוץ גבת 1948. אביו נולד בקווקז ואמו בפולין. הוריו, שהיו ממקימי המפעל הציוני. נפגשו בקיבוץ גבת אשר בעמק יזרעאל ובו הקימו משפחה. לאחר מספר שנים, בתקופת הפילוג, עזבו את גבת והיו ממקימי קיבוץ יפעת, בו התגורר צביקה עד מותו.\\nצביקה, היה כל חייו קיבוצניק, חקלאי, צנחן ופעיל חברתי. הוא לחם במלחמת ההתשה, מלחמת יום כיפור ומלחמת לבנון הראשונה, לאחריה אף קיבל דרגת קצונה. לאורך כל השנים המשיך צביקה בשירות מילואים פעיל כחייל וכלוחם והתקדם במהלכן בסולם הדרגות. את דרגת אל''ם קיבל בשנת 2016 כאות הוקרה מיוחד על תרומתו הרבה לצה''ל. פעילותו הענפה ומפעל חייו.\\nלאחר מותה הטרגי של בתו עפרי ז''ל (1983) החליט צביקה לתעל את האבל והעצב לפעילות לטובת החברה. בעקבות התייעצות עם הרמטכ''ל דאז, רא''ל רפאל איתן, קיבל צביקה על עצמו לרכז פרויקט לאיתור וגיוס נערים ונערים אשר קיבלו פטור מגיוס לצה''ל, תוך שהוא מלווה אותם אישית במסגרת מיוחדת שנבנתה עבורם (\\\"נערי רפול\\\")\\nלאחר כעשור, בעידוד ותמיכה של ראש אכ''א דאז, האלוף יורם יאיר, יזם צביקה פרויקט שהפך עם השנים למהות ומרכז חייו – ליווי וטיפול בחיילות וחיילים בודדים, כחלק ממנו פעל צביקה, כנציג התנועה הקיבוצית, לשילובם בצה''ל של בוגרי תנועת ''צבר'', שעלו לארץ כחיילים בודדים לצורך שירות צבאי.\\nתחושת השליחות, המסירות והאהבה העצומה שהרעיף צביקה עליהם, זיכתה אותו במהרה בשם שכה היטיב להגדירו – \\\"האבא של החיילים הבודדים\\\".\\nבמסגרת פעילותו הרבה, יצר צביקה קשרים רבים בארץ ובחו''ל. על מנת לשלב גורמים רבים ככל הניתן בפרויקט ייחודי זה. בין היתר פעל צביקה לאתר מקורות כספים שיבטיחו סיוע מירבי לצעירים אלו. \\nעל מפעל חיים זה בו פעל צביקה מיום הקמתו, הוכרז צביקה בשנת 2017 כ'חתן פרס ישראל למפעל חיים'. \\nבנוסף לטיפול בחיילים הבודדים, פעל צביקה כפעל חברתי למען משפחת השכול בסיוע לאוכלסיות שונות ומקרים מיוחדים.\\nצביקה חלה ב – A.L.S (ניוון שרירים). גם בהיותו מרותק למיטת חוליו ובמאבק עיקש במחלה ובתוצאותיה, הצליח צביקה בעזרת נחישות וכוח רצון להתגבר על מגבלות המחלה, לתקשר עם הסביבה ולהמשיך ולפעול ללא לאות למען החיילים הבודדים.\\nבדצמבר 2018 לאחר מאבק ממושך ועיקש, הלך צביקה לעולמו, אך קולו לא יידום.\\n\"]},{\"title\":[\"Donate\",\"תרום\"],\"paragraph\":[\"Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarship Apply for a scholarshipApply for a scholarship\",\"<p style=\\\"text-align: right;\\\"><strong><u>צביקה לוי &ndash; \\\" האבא של החיילים הבודדים\\\"</u></strong></p>\\n<p style=\\\"text-align: right;\\\"><u>\\\"איש של אנשים ואמונה באדם\\\"</u></p>\\n<p style=\\\"text-align: right;\\\">צביקה נולד בקיבוץ גבת 1948. אביו נולד בקווקז ואמו בפולין. הוריו, שהיו ממקימי המפעל הציוני. נפגשו בקיבוץ גבת אשר בעמק יזרעאל ובו הקימו משפחה. לאחר מספר שנים, בתקופת הפילוג, עזבו את גבת והיו ממקימי קיבוץ יפעת, בו התגורר צביקה עד מותו.</p>\\n<p style=\\\"text-align: right;\\\">צביקה, היה כל חייו קיבוצניק, חקלאי, צנחן ופעיל חברתי. הוא לחם במלחמת ההתשה, מלחמת יום כיפור ומלחמת לבנון הראשונה, לאחריה אף קיבל דרגת קצונה. לאורך כל השנים המשיך צביקה בשירות מילואים פעיל כחייל וכלוחם והתקדם במהלכן בסולם הדרגות. את דרגת אל''ם קיבל בשנת 2016 כאות הוקרה מיוחד על תרומתו הרבה לצה''ל. פעילותו הענפה ומפעל חייו.</p>\\n<p style=\\\"text-align: right;\\\">לאחר מותה הטרגי של בתו עפרי ז''ל (1983) החליט צביקה לתעל את האבל והעצב לפעילות לטובת החברה. בעקבות התייעצות עם הרמטכ''ל דאז, רא''ל רפאל איתן, קיבל צביקה על עצמו לרכז פרויקט לאיתור וגיוס נערים ונערים אשר קיבלו פטור מגיוס לצה''ל, תוך שהוא מלווה אותם אישית במסגרת מיוחדת שנבנתה עבורם (\\\"נערי רפול\\\")</p>\\n<p style=\\\"text-align: right;\\\">לאחר כעשור, בעידוד ותמיכה של ראש אכ''א דאז, האלוף יורם יאיר, יזם צביקה פרויקט שהפך עם השנים למהות ומרכז חייו &ndash; ליווי וטיפול בחיילות וחיילים בודדים, כחלק ממנו פעל צביקה, כנציג התנועה הקיבוצית, לשילובם בצה''ל של בוגרי תנועת ''צבר'', שעלו לארץ כחיילים בודדים לצורך שירות צבאי.</p>\\n<p style=\\\"text-align: right;\\\">תחושת השליחות, המסירות והאהבה העצומה שהרעיף צביקה עליהם, זיכתה אותו במהרה בשם שכה היטיב להגדירו &ndash; \\\"האבא של החיילים הבודדים\\\".</p>\\n<p style=\\\"text-align: right;\\\">במסגרת פעילותו הרבה, יצר צביקה קשרים רבים בארץ ובחו''ל. על מנת לשלב גורמים רבים ככל הניתן בפרויקט ייחודי זה. בין היתר פעל צביקה לאתר מקורות כספים שיבטיחו סיוע מירבי לצעירים אלו.</p>\\n<p style=\\\"text-align: right;\\\">על מפעל חיים זה בו פעל צביקה מיום הקמתו, הוכרז צביקה בשנת 2017 כ'חתן פרס ישראל למפעל חיים'.</p>\\n<p style=\\\"text-align: right;\\\">בנוסף לטיפול בחיילים הבודדים, פעל צביקה כפעל חברתי למען משפחת השכול בסיוע לאוכלסיות שונות ומקרים מיוחדים.</p>\\n<p style=\\\"text-align: right;\\\">צביקה חלה ב &ndash; A.L.S (ניוון שרירים). גם בהיותו מרותק למיטת חוליו ובמאבק עיקש במחלה ובתוצאותיה, הצליח צביקה בעזרת נחישות וכוח רצון להתגבר על מגבלות המחלה, לתקשר עם הסביבה ולהמשיך ולפעול ללא לאות למען החיילים הבודדים.</p>\\n<p style=\\\"text-align: right;\\\">בדצמבר 2018 לאחר מאבק ממושך ועיקש, הלך צביקה לעולמו, אך קולו לא יידום.</p>\"]}]}");
+
+/***/ }),
+
+/***/ 1:
+/*!***************************************************************************************************************************!*\
+  !*** multi ./node_modules/webpack/hot/dev-server.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Projects\Tzvika_fundation\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Projects\Tzvika_fundation\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Projects\Tzvika_fundation\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",1]]]);
+//# sourceMappingURL=main.chunk.js.map

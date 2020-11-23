@@ -1,0 +1,14 @@
+.logoDiv {
+  z-index: 2;
+  margin: 0.9% 17% 0 72%;
+  position: absolute;
+  border-radius: 10%;
+  padding: 0.5%;
+  background-color: white;
+}
+
+.logo {
+  width: 95%;
+  margin: 30% auto 9% auto;
+  display: block;
+}

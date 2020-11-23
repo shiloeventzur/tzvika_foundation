@@ -1,0 +1,19 @@
+/* Background Image */
+.imageBackground {
+  background-color: black;
+  width: 85%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+
+.cover {
+  display: block;
+  object-fit: cover;
+  object-position: 1% 0%;
+  opacity: 0.9;
+  width: 100%;
+  border-radius: 10px;
+}
