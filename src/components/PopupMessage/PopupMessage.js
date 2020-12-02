@@ -36,9 +36,9 @@ class PopupMessage extends React.Component {
               id="emailAdress"
               className={"steps_" + this.props.lang}
               style={{ margin: "0.5%" }}
-              href="mailto:kerentzvika@gmail.com"
+              href="mailto:applications@kerentzvika.com"
             >
-              kerentzvika@gmail.com
+              applications@kerentzvika.com
             </a>
           </h4>
           <h3 className={"nextSteps_" + this.props.lang}>{goodLuck}</h3>

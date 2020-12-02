@@ -35,8 +35,8 @@ class Footer extends Component {
           &emsp;
           <div className="verticalLine">|</div>
           &emsp;
-          <a href={`mailto: kerentzvika@gmail.com`} className="footerMailLink">
-            kerentzvika@gmail.com
+          <a href={`mailto: contact@kerentzvika.com`} className="footerMailLink">
+            contact@kerentzvika.com
           </a>
           &emsp;
           <div className="verticalLine">|</div>
